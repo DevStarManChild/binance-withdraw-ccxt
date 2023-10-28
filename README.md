@@ -1,13 +1,2 @@
 # binance-withdraw-ccxt
-
-1. Скачивай оба файла, в файл wallets.txt добавляешь адреса кошельков, которые хочешь пополнить.
-2. Берешь api key и api secret в binance, не забудь добавить свой ip адрес при создании ключей, иначе не даст выводить.
-3. Значения ключей передаешь в переменные API_KEY и API_SECRET.
-4. В перменную symbolWithdraw передаешь монету, которую хочешь вывести.
-5. В network сеть.
-
-time.sleep можешь убрать, но с ним более безопасно от будущего бритья.
-кол-во монет для вывода меняешь в переменной amount_to_withdrawal. можешь выводить не рандомное кол-во, но это хорошая практика для попадания под бритье в будущем.
-
-Канал : https://t.me/hodlmodeth. 
-Чат для вопросов : https://t.me/code_hodlmodeth.
+"Download both files. Add wallet addresses you want to top up to the wallets.txt file. Obtain the API key and API secret from Binance. Don't forget to add your IP address when creating the keys, otherwise, it won't let you withdraw. Pass the key values to the API_KEY and API_SECRET variables. Pass the coin you want to withdraw to the symbolWithdraw variable. For the network, use network. You can remove time.sleep, but it's safer with it to prevent potential issues in the future. Change the amount of coins you want to withdraw in the amount_to_withdrawal variable. You can withdraw a non-random amount, but it's a good practice to avoid problems in the future."
